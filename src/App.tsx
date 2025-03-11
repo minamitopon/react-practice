@@ -1,8 +1,5 @@
 import "./App.css";
-import { LabelAm } from "./components/atoms/common/LabelAm";
-import { InputAm } from "./components/atoms/common/InputAm";
-import { ListAm } from "./components/atoms/common/ListAm";
-import { UlAm } from "./components/atoms/common/UlAm";
+import { LabelAm, InputAm, ListAm, UlAm } from "./components";
 
 function App() {
   const handleChanged = (v: string) => {
